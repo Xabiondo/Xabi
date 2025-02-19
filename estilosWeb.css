@@ -10,6 +10,7 @@ body {
     overflow: hidden; /* Asegura que el contenido no se desbordará */
     display: flex;
     justify-content: center;
+ 
     
 }
 
@@ -22,6 +23,7 @@ body {
     padding: 14px 20px; /* Espaciado interno */
     text-decoration: none; /* Elimina el subrayado */
     align-items: center;
+    margin-left: 15px;
 }
 
 /* Cambia el color al pasar el mouse sobre los enlaces */
