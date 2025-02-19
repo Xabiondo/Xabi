@@ -1,0 +1,35 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para la barra horizontal */
+.navbar {
+    background-color: #333; /* Color de fondo de la barra */
+    overflow: hidden; /* Asegura que el contenido no se desbordará */
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* Estilo para los enlaces dentro de la barra */
+.navbar a {
+    float: left; /* Coloca los elementos en línea horizontal */
+    display: block; /* Convierte los enlaces en bloques */
+    color: white; /* Color del texto */
+    text-align: center; /* Centra el texto */
+    padding: 14px 20px; /* Espaciado interno */
+    text-decoration: none; /* Elimina el subrayado */
+    align-items: center;
+}
+
+/* Cambia el color al pasar el mouse sobre los enlaces */
+.navbar a:hover {
+    background-color: #575757; /* Color de fondo al pasar el mouse */
+}
+
+/* Estilo activo para el enlace seleccionado */
+.navbar a.active {
+    background-color: #4CAF50; /* Color de fondo para el enlace activo */
+}
