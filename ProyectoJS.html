@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Barra Horizontal</title>
+    <title>Personalizar Texto</title>
     <!-- Vinculamos el archivo CSS externo -->
     <link rel="stylesheet" href="estilosWeb.css">
 </head>
@@ -12,7 +12,7 @@
 
     <!-- Barra horizontal -->
     <div class="navbar">
-        <a href="#home" class="active">Inicio</a>
+        <a href="#home" class="active">Personalizar</a>
         <a href="#services">Servicios</a>
         <a href="#contact">Contacto</a>
     </div>
@@ -22,6 +22,15 @@
         <h1>Bienvenido a mi sitio web</h1>
         <p>Esta es una barra horizontal creada con HTML y CSS.</p>
     </div>
+
+    <a href="#" id="personalizar-link">Personalizar</a>
+    <div id="personalizar-cuadro" style="display: none;">
+        <button class="color-button" data-color="red" style="background-color: red;">Rojo</button>
+        <button class="color-button" data-color="blue" style="background-color: blue;">Azul</button>
+        <button class="color-button" data-color="green" style="background-color: green;">Verde</button>
+        <!-- Agrega más botones de colores según sea necesario -->
+    </div>
+    <p id="texto-personalizable">Este es el texto que se puede personalizar.</p>
 
 </body>
 </html>
