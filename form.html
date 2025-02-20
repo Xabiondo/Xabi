@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Page</title>
+  <link rel="stylesheet" href="estilosWeb.css">
+</head>
+<body>
+  <!-- Barra horizontal -->
+  <div class="navbar">
+    <a href="ProyectoJS.html">Personalizar</a>
+    <a href="form.html" class="active2">Form</a>
+    <a href="Imagenes.html">Imagenes</a>
+    <button id="darkModeButton">Dark Mode</button>
+  </div>
+
+
+  <!-- Contenido de la página -->
+  <div class="FormularioGlobal">
+  <form action="" id="emailForm" class="formGeneral">
+    <label for="fname">First name</label><br>
+    <input type="text" id="fname" name="fname"><br>
+
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email"><br>
+
+    <input type="submit" value="Submit">
+  </form>
+
+  
+  <!-- Mensaje de validación del email -->
+  <p id="validationMessage" style="color: red; font-weight: bold;"></p>
+
+
+  <br><br>
+    <label for="nombre">Gender</label>
+    <br><br>
+  <label for="opcion1">Male</label>
+  <input type="radio" id="opcion1" name="gender" value="male">
+  <label for="opcion2">Woman</label>
+  <input type="radio" id="opcion2" name="gender" value="female">
+  <label for="opcion3">Other</label>
+  <input type="radio" id="opcion3" name="gender" value="other">
+
+  
+  <br><br>
+  <label for="country">Country</label>
+  <br><br>
+  <select name="country" id="country">
+    <option value="" selected disabled>Select your country</option>
+    <option value="spain">Spain</option>
+    <option value="france">France</option>
+    <option value="germany">Germany</option>
+    <option value="italy">Italy</option>
+  </select>
+  <br><br>
+  <button id="sendButton">Send</button>
+  
+  <p id="resultMessage" style="font-weight: bold; color: green;"></p>
+  </div>
+
+
+  
+  <!-- Carga de scripts -->
+  <script src="scripts.js"></script>
+</body>
+</html>

@@ -2,7 +2,18 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    
 }
+.FormularioGlobal {
+    width: 100%;
+    max-width: 400px; /* Ancho máximo del formulario */
+    margin: 50px auto; /* Margen automático para centrar horizontalmente */
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 
 /* Estilo para la barra horizontal */
 .navbar {
@@ -25,6 +36,21 @@ body {
     align-items: center;
     margin-left: 15px;
 }
+.navbar button {
+    
+    float: left; /* Coloca los elementos en línea horizontal */
+    display: block; /* Convierte los enlaces en bloques */
+    color: white; /* Color del texto */
+    text-align: center; /* Centra el texto */
+    padding: 14px 20px; /* Espaciado interno */
+    text-decoration: none; /* Elimina el subrayado */
+    align-items: center;
+    margin-left: 15px;
+    border: none;
+    cursor: pointer;
+    background: none;
+
+}
 
 /* Cambia el color al pasar el mouse sobre los enlaces */
 .navbar a:hover {
@@ -35,3 +61,20 @@ body {
 .navbar a.active {
     background-color: #4CAF50; /* Color de fondo para el enlace activo */
 }
+.navbar a.active2 {
+    background-color: #4CAF50; /* Color de fondo para el enlace activo */
+}
+.navbar a.active3 {
+    background-color: #4CAF50; /* Color de fondo para el enlace activo */
+}
+
+/* Poner el modooscuro  */
+.dark-mode {
+    background-color: #121212; /* Fondo oscuro */
+    color: #ffffff; /* Texto claro */
+}
+
+.navbar.dark-mode {
+    background-color: #333; /* Fondo oscuro para la barra de navegación */
+}
+
